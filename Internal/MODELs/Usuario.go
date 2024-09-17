@@ -1,6 +1,6 @@
-package VO
+package MODELs
 
-type UsuarioVO struct {
+type Usuario struct {
 	ID       int
 	Email    string
 	Password string
