@@ -1,6 +1,6 @@
-package DAO
+package Interfaces
 
-import "github.com/jcgr5/AudioInterface/Internal/VO"
+import "github.com/jcgr5/AudioInterface/Internal/MODELs/VO"
 
 type TipoDAO interface {
 	Create(t *VO.TipoVO) error

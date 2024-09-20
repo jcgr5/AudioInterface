@@ -1,6 +1,6 @@
-package DAO
+package Interfaces
 
-import "github.com/jcgr5/AudioInterface/Internal/VO"
+import "github.com/jcgr5/AudioInterface/Internal/MODELs/VO"
 
 type UsuarioDAO interface {
 	GetUsuario(id int) (*VO.UsuarioVO, error)

@@ -1,6 +1,6 @@
-package DAO
+package Interfaces
 
-import "github.com/jcgr5/AudioInterface/Internal/VO"
+import "github.com/jcgr5/AudioInterface/Internal/MODELs/VO"
 
 type DispositivoDAO interface {
 	Create(d *VO.DispositivoVO) error
